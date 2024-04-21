@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cdf4f2;
+    background-image: url("https://img.freepik.com/fotos-premium/letras-colores-sobre-superficie-negra_406939-1927.jpg");
+  
+  }
+     
+  h1 {
+    font-family: Impact, sans-serif;
+    color: black; 
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: white; 
+    text-align: center;
+    margin-top: 100px;
+    color:  #13e713;
+    font-size: 53px;
+  }
+
+  .resultado-gif {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+ }
+ .fondo{
+  opacity: 1;
+ }
+   
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }  
+
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  #try-again{
+    display: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+  .ayuda{
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #0CBABA;
+    color: #fff;
+    border:#0c0c0c
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+#informacion{
+  display: none;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto 20px;
+  background-color: #0c0c0c;
+  color: #f8f5f5;
+  transform: translateY(-90%);
+  overflow: hidden;
+  padding: 25px;
+  border:#ccc;
+  border-radius: 10px;
+  }
+  
+  .letter {
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+    text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }

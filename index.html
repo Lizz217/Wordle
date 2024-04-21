@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wordle PPY</title>
+        <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+  
+    <h1>Wordle PPY</h1>
+    <input type="text" id="guess-input" autocomplete="off">
+    <button id="guess-button">Intentar</button>
+    <button id="try-again">Volver a jugar</button>
+    <button class="ayuda" id="boton-ayuda">Ayuda</button>
+  
+    <div id="informacion">
+      <h1>Acerca del juego</h2>
+        <p>Tienes que adivinar la palabra oculta en 6 intentos y el color de las letras cambia para mostrar lo cerca que
+          estás.</p>
+        <ul>
+          <li>Letras que están en el lugar correcto se mostraran en color VERDE</li>
+          <li>Letras que existen en la palabra, pero no están en el lugar correcto, se mostraran en AMARILLO</li>
+          <li>Letras que no existen se mostraran en GRIS</li>
+        </ul>
+        <button class="ayuda" id="boton-Cerrar">Entendido!</button>
+    </div>
+    <div id="grid">
+    </div>
+    <p id="guesses">
+  
+  
+  </body>
+</html>
